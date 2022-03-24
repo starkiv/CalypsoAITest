@@ -5,7 +5,7 @@ exports.config = {
     path: '/',
 
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/**/*.js',
     ],
 
     exclude: [],
@@ -14,11 +14,13 @@ exports.config = {
 
     capabilities: [{
 
-        maxInstances: 1,
-
         browserName: 'chrome',
-        acceptInsecureCerts: true
-    },{
+        maxInstances: 1,
+        'goog:chromeOptions': {
+            args: ['--ignore-certificate-errors']
+        },
+    },
+        {
 
         maxInstances: 1,
 
