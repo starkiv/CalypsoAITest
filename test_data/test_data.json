@@ -1,0 +1,16 @@
+{
+  "email": "yuriiTest@gmail.com",
+  "password": "12345Test",
+  "myAccountTitle": "MY ACCOUNT",
+  "successfulTitle": "Product successfully added to your shopping cart",
+  "cartTitle": "SHOPPING-CART SUMMARY",
+  "firstItemTitle": "Faded Short Sleeve T-shirts",
+  "firstItemPrice": "$16.51",
+  "shoppingPaymentTitle": "SHOPPING-CART SUMMARY",
+  "addressPaymentTitle": "ADDRESSES",
+  "shippingPaymentTitle": "SHIPPING",
+  "paymentMethodTitle": "PLEASE CHOOSE YOUR PAYMENT METHOD",
+  "orderSummaryTitle": "ORDER SUMMARY",
+  "bankWirePayment": "BANK-WIRE PAYMENT.",
+  "orderComplete": "Your order on My Store is complete."
+}
