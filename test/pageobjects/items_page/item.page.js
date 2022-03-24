@@ -15,8 +15,8 @@ class ItemPage extends Page {
     }
 
     async addItemToCart () {
-        await $(itemSelectors.cartBtn).waitForDisplayed();
-        await $(itemSelectors.cartBtn).click();
+        await $(itemSelectors.addToCartBtn).waitForDisplayed();
+        await $(itemSelectors.addToCartBtn).click();
     }
 
     async goToCart () {

@@ -1,8 +1,8 @@
 import LoginPage from "../pageobjects/login_page/login.page";
 import WomenPage from "../pageobjects/items_page/women.page";
 import ItemPage from "../pageobjects/items_page/item.page";
-import testData from '../../test_data/test_data.json';
 import PaymentPage from "../pageobjects/payment_page/payment.page";
+import testData from '../../test_data/test_data.json';
 
 describe('User can make an order', () => {
     it('should be redirected to the shopping summary payment page', async () => {

@@ -23,7 +23,9 @@ class WomenPage extends Page {
 
     async goToItem () {
         await this.visitWomenContent()
-        await $$(itemSelectors.itemsInTheList)[0].click();
+        await $(itemSelectors.firstItemInTheList).scrollIntoView();
+        await $(itemSelectors.firstItemInTheList).moveTo();
+        await $(itemSelectors.moreOption).click();
     }
 
     async goToCartFromItemsList () {
